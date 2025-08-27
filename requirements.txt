@@ -13,6 +13,6 @@ openai>=1.40.0
 streamlit>=1.33.0
 python-docx>=1.1.0
 pypdf>=4.2.0
-pywin32  # se hai Microsoft Word su Windows
 python-docx>=1.1.0
 pypdf>=4.2.0
+pywin32==306; sys_platform == "win32"
